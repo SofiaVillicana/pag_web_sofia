@@ -1,0 +1,208 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+html {
+    background-image: url(./images/golden-pink.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  p {
+    font-family: 'Overlock', cursive;
+  }
+
+h1{
+    color: #FFCDD2;
+    position: absolute;
+    left: 0px;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+  
+h2{
+   color: blueviolet; font-family: 'Gabriela', serif;
+}
+
+.parrafo{
+    color: palevioletred;
+}
+
+nav {
+    width: 47%;
+    text-align: center;
+    color: #E57373;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFEBEE;
+    font-family: 'Montez', cursive;
+    display: flex;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: #E57373 !important;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: lightpink;
+    }
+
+    li a:hover {
+        background-color: #FFCDD2;
+    }
+
+    #snowflakeContainer {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .snowflake {
+        padding-left: 15px;
+        font-family: Cambria, Georgia, serif;
+        font-size: 14px;
+        line-height: 24px;
+        position: fixed;
+        color: #437EAA;
+        user-select: none;
+        z-index: 1000;
+    }
+    .snowflake:hover {
+        cursor: default;
+    }
+    h1 {
+        font-size: 32px;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 15px;
+        color: #FFF;
+        margin: 0px;
+    }
+    p, ol {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", sans-serif;
+        font-size: 24px;
+        color: #CCC;
+    }
+    li {
+        margin-bottom: 3px;
+        padding-left: 10px;
+    }
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: repeat(8, 100px);
+    grid-gap: 5px;
+    grid-template-areas:
+    ". bob bob bob bob bob bob ."
+    ". . . . . s1 s1 s1"
+    ". . . s2 s2 s2 . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    ". . . . . . . ."
+    "pie pie pie pie pie pie pie pie"
+
+}
+
+header{
+    grid-area: bob;
+}
+
+#video{
+    grid-column: 3;
+    grid-row: 2;
+    }
+
+#firma{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+#sec2 {
+    font-family: 'Overlock', cursive;
+    grid-column: 5;
+    grid-row: 2;
+}
+
+#gif {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#dream {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#video1 {
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#video2 {
+    grid-column: 1;
+    grid-row: 5;
+}
+
+#video3 {
+    grid-column: 4;
+    grid-row: 5;
+}
+
+#video4{
+    grid-column: 7;
+    grid-row: 2;
+}
+
+#video5{
+    grid-column: 7;
+    grid-row: 5;
+}
+
+#instagram{
+    grid-column: 4;
+    grid-row: 2;
+}
+
+#twitter {
+    grid-column: 5;
+    grid-row: 2;
+}
+
+#gmail {
+    grid-column: 4;
+    grid-row: 4;
+}
+
+#linkdn {
+    grid-column: 5;
+    grid-row: 4;
+}
+
+#youtube {
+    grid-column: 3;
+    grid-row: 3;
+}
+
+#pie {
+    grid-column: 4;
+    grid-row: 9;
+}
+
+footer {
+    background-color:#EF9A9A;
+    grid-area: pie;
+}
+
